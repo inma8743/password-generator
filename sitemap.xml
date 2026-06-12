@@ -25,6 +25,18 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://password-generator-self-seven.vercel.app/tools.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/tools.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://password-generator-self-seven.vercel.app/privacy.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>yearly</changefreq>
