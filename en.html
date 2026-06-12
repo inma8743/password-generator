@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Generate a secure random password in your browser. Choose length, letters, numbers, symbols, and avoid ambiguous characters.">
+  <meta name="google-site-verification" content="iJYo0s5IVucjVPlcUXP11HltZW35jnzpXC0C4rTFapw">
+  <meta name="keywords" content="password generator, random password, secure password, strong password generator">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="canonical" href="https://password-generator-self-seven.vercel.app/en.html">
+  <link rel="alternate" hreflang="ko" href="https://password-generator-self-seven.vercel.app/">
+  <link rel="alternate" hreflang="en" href="https://password-generator-self-seven.vercel.app/en.html">
+  <link rel="alternate" hreflang="x-default" href="https://password-generator-self-seven.vercel.app/en.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Password Generator">
+  <meta property="og:description" content="A free random password generator that runs only in your browser.">
+  <meta property="og:url" content="https://password-generator-self-seven.vercel.app/en.html">
+  <title>Password Generator | Create A Strong Random Password</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZW95TCSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3EZW95TCSF');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Password Generator",
+    "url": "https://password-generator-self-seven.vercel.app/en.html",
+    "applicationCategory": "SecurityApplication",
+    "operatingSystem": "Any",
+    "isAccessibleForFree": true,
+    "inLanguage": "en",
+    "description": "A free tool for generating secure random passwords in the browser."
+  }
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4587553505034907" crossorigin="anonymous"></script>
+  <style>
+    *{box-sizing:border-box}body{margin:0;color:#172033;background:radial-gradient(circle at top left,#dbeafe,transparent 34%),linear-gradient(145deg,#f8fafc,#eff6ff 58%,#f8fafc);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header,main,footer{width:min(960px,calc(100% - 32px));margin:auto}header{padding:48px 0 26px;text-align:center}h1{margin:0 0 10px;font-size:clamp(31px,7vw,50px);letter-spacing:-2px}header p{margin:0;color:#5d6a80}.language{display:flex;justify-content:center;gap:8px;margin-top:16px}.language a{padding:8px 11px;border-radius:999px;color:#2563eb;background:#fff;font-size:13px;font-weight:900;text-decoration:none}.grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:18px}.card,.guide{padding:24px;border:1px solid rgba(15,23,42,.1);border-radius:24px;background:rgba(255,255,255,.94);box-shadow:0 16px 44px rgba(15,23,42,.08)}label{display:block;margin:14px 0 7px;color:#46546b;font-size:14px;font-weight:800}input[type=range]{width:100%}.length-row{display:flex;justify-content:space-between;gap:12px;align-items:center}.length-value{color:#2563eb;font-size:26px;font-weight:900}.options{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.option{display:flex;gap:8px;align-items:center;padding:12px;border:1px solid #dbe3f0;border-radius:13px;background:#f8fbff;font-weight:700}button{border:0;border-radius:13px;font:inherit;font-weight:900;cursor:pointer}.primary{width:100%;margin-top:18px;padding:15px 18px;color:#fff;background:#2563eb}.secondary{padding:12px 14px;color:#2563eb;background:#eaf1ff}.password-box{overflow-wrap:anywhere;min-height:104px;padding:18px;border-radius:18px;color:#0f172a;background:#f1f5f9;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:clamp(20px,5vw,30px);font-weight:900;line-height:1.45}.actions{display:flex;gap:10px;margin-top:12px}.actions button{flex:1}.strength{margin-top:16px}.bar{height:12px;overflow:hidden;border-radius:99px;background:#e2e8f0}.bar span{display:block;height:100%;width:0;background:#ef4444;transition:.2s ease}.hint,.notice{color:#5d6a80;line-height:1.65}.guide{margin:22px 0;line-height:1.75}.guide ul{padding-left:20px}.tools a{display:inline-block;margin:3px 8px 3px 0;color:#2563eb}.ad{min-height:100px;margin:20px auto;padding:18px;border:1px dashed #cbd5e1;border-radius:18px;color:#64748b;background:rgba(255,255,255,.68);display:flex;align-items:center;justify-content:center;text-align:center}footer{padding:12px 0 42px;text-align:center;color:#64748b;font-size:13px}footer a{color:inherit}@media(max-width:760px){header{padding-top:34px}.grid,.options{grid-template-columns:1fr}.card,.guide{padding:20px}.actions{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Password Generator</h1>
+    <p>Create a strong random password locally in your browser.</p>
+    <nav class="language" aria-label="Language">
+      <a href="/">한국어</a>
+      <a href="/en.html">English</a>
+    </nav>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="card">
+        <h2>Options</h2>
+        <label for="length">Password length</label>
+        <div class="length-row">
+          <input id="length" type="range" min="8" max="64" value="16">
+          <span id="length-value" class="length-value">16</span>
+        </div>
+        <div class="options">
+          <label class="option"><input id="lowercase" type="checkbox" checked> Lowercase</label>
+          <label class="option"><input id="uppercase" type="checkbox" checked> Uppercase</label>
+          <label class="option"><input id="numbers" type="checkbox" checked> Numbers</label>
+          <label class="option"><input id="symbols" type="checkbox" checked> Symbols</label>
+          <label class="option"><input id="avoid-ambiguous" type="checkbox" checked> Avoid ambiguous characters</label>
+        </div>
+        <button id="generate" class="primary" type="button">Generate password</button>
+        <p class="notice">Generated passwords are not sent to or stored on a server.</p>
+      </article>
+      <article class="card">
+        <h2>Result</h2>
+        <div id="password" class="password-box" aria-live="polite">Click the button to generate a password.</div>
+        <div class="actions">
+          <button id="copy" class="secondary" type="button">Copy</button>
+          <button id="refresh" class="secondary" type="button">Regenerate</button>
+        </div>
+        <div class="strength">
+          <div class="bar"><span id="strength-bar"></span></div>
+          <p id="strength-label" class="hint">Use more characters and character types for a stronger password.</p>
+        </div>
+      </article>
+    </section>
+    <div class="ad">Google AdSense display area</div>
+    <section class="guide">
+      <h2>Password safety tips</h2>
+      <ul>
+        <li>Use at least 16 characters for important accounts.</li>
+        <li>Use a different password for every website.</li>
+        <li>Use a password manager and two-factor authentication when possible.</li>
+        <li>Avoid personal information such as names, birthdays, and phone numbers.</li>
+      </ul>
+      <h2>How it works</h2>
+      <p>This tool uses <strong>crypto.getRandomValues</strong> in your browser. The password is generated locally and only appears on your screen.</p>
+      <h2>Free tools</h2>
+      <p class="tools">
+        <a href="https://json-formatter-eight-theta.vercel.app/">JSON Formatter</a>
+        <a href="https://char-counter-ashen-seven.vercel.app/">Character Counter</a>
+        <a href="https://percent-calculator-ten.vercel.app/">Percentage Calculator</a>
+        <a href="https://stock-board-ten.vercel.app/en.html">Korea Stock Hub</a>
+      </p>
+    </section>
+  </main>
+  <footer>© 2026 Password Generator · <a href="/privacy.html">Privacy and ads notice</a></footer>
+  <script>
+    const sets={lowercase:'abcdefghijklmnopqrstuvwxyz',uppercase:'ABCDEFGHIJKLMNOPQRSTUVWXYZ',numbers:'0123456789',symbols:'!@#$%^&*()-_=+[]{};:,.?'};
+    const ambiguous=new Set('Il1O0o');
+    const lengthInput=document.getElementById('length');
+    const lengthValue=document.getElementById('length-value');
+    const passwordEl=document.getElementById('password');
+    const strengthBar=document.getElementById('strength-bar');
+    const strengthLabel=document.getElementById('strength-label');
+    const tracked={generate:false,copy:false};
+    lengthInput.addEventListener('input',()=>{lengthValue.textContent=lengthInput.value;generatePassword();});
+    ['lowercase','uppercase','numbers','symbols','avoid-ambiguous'].forEach((id)=>document.getElementById(id).addEventListener('change',generatePassword));
+    document.getElementById('generate').addEventListener('click',generatePassword);
+    document.getElementById('refresh').addEventListener('click',generatePassword);
+    document.getElementById('copy').addEventListener('click',copyPassword);
+    generatePassword();
+    function selectedSets(){return Object.keys(sets).filter((id)=>document.getElementById(id).checked);}
+    function buildPool(keys){let pool=keys.map((key)=>sets[key]).join('');if(document.getElementById('avoid-ambiguous').checked){pool=[...pool].filter((char)=>!ambiguous.has(char)).join('');}return pool;}
+    function randomIndex(max){const array=new Uint32Array(1);const limit=Math.floor(0x100000000/max)*max;do{crypto.getRandomValues(array);}while(array[0]>=limit);return array[0]%max;}
+    function generatePassword(){const keys=selectedSets();if(!keys.length){passwordEl.textContent='Select at least one character type.';updateStrength(0,0);return;}const length=Number(lengthInput.value);const pool=buildPool(keys);const required=keys.map((key)=>pickFrom(buildPool([key]))).filter(Boolean);const chars=[...required];while(chars.length<length)chars.push(pickFrom(pool));shuffle(chars);const password=chars.slice(0,length).join('');passwordEl.textContent=password;updateStrength(length,pool.length);trackOnce('generate');}
+    function pickFrom(pool){if(!pool)return '';return pool[randomIndex(pool.length)];}
+    function shuffle(items){for(let i=items.length-1;i>0;i--){const j=randomIndex(i+1);[items[i],items[j]]=[items[j],items[i]];}}
+    function updateStrength(length,poolSize){const score=Math.min(100,Math.round(length*Math.log2(Math.max(poolSize,1))/1.2));strengthBar.style.width=`${score}%`;strengthBar.style.background=score>=80?'#16a34a':score>=55?'#f59e0b':'#ef4444';strengthLabel.textContent=score>=80?'Strong: suitable for important accounts.':score>=55?'Moderate: increasing the length would help.':'Weak: use more length or character types.';}
+    async function copyPassword(){const text=passwordEl.textContent;if(!text||text.includes('Select')||text.includes('Click'))return;await navigator.clipboard.writeText(text);strengthLabel.textContent='Copied. Store it in a safe place after pasting.';trackOnce('copy');}
+    function trackOnce(type){if(tracked[type])return;gtag('event',type==='copy'?'password_copy':'password_generate',{language:'en'});tracked[type]=true;}
+  </script>
+</body>
+</html>
