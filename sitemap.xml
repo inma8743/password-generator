@@ -61,6 +61,36 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/secure-password-checklist.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/password-manager-checklist.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/random-password-vs-passphrase.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/instagram-password-generator.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://password-generator-self-seven.vercel.app/en/wifi-password-generator.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://password-generator-self-seven.vercel.app/developer.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
