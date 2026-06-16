@@ -1,0 +1,10 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "preview": "npx serve .",
+    "check:sitemap": "powershell -ExecutionPolicy Bypass -File scripts/check-sitemap.ps1"
+  }
+}
