@@ -1,0 +1,14 @@
+EFF Large Wordlist
+Copyright 2016 Joseph Bonneau and Electronic Frontier Foundation.
+Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
+https://creativecommons.org/licenses/by/3.0/us/
+
+Upstream file, included byte-for-byte:
+https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
+Project and wordlist information:
+https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+EFF's distribution license confirmation:
+https://github.com/EFForg/eff_diceware#license
+
+The generator uses the 7,772 entries containing only ASCII letters, omitting
+four hyphenated entries so the allowed separators give unambiguous boundaries.
